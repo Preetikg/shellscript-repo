@@ -11,5 +11,5 @@ cd abcdir
 echo "now i am in $(pwd)"
 echo "creating a new file name"
 touch name
-echo "my name is preeti > name"
+echo "my name is preeti "> name
 echo "the content of file is: $(cat name)"   
