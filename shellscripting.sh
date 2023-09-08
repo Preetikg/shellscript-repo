@@ -1,3 +1,5 @@
 # !/bin/bash
 echo "my current directory is $(pwd)"
- echo "nombers of file $(/home/centos)"
+cd /home/centos
+echo "my current directory is $(pwd)"
+echo "numbers of file $(ls | wc -l)"
