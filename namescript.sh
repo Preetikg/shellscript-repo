@@ -1,3 +1,3 @@
 #!/bin/bash
-name=Preeti
-echo " my name is $(name)"
+name1=Preeti
+echo " my name is $name1"
