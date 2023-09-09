@@ -1,4 +1,5 @@
 #!/bin/bash
 echo " I am going to install java"
-sudo apt install default java -jdk 
+ sudo apt update && sudo apt install default-jre && java -version
+sudo apt install default-jdk && javac -version 
                           
